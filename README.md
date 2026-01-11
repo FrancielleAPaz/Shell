@@ -29,13 +29,10 @@ O shell suporta as seguintes operações baseadas no código `shell_pipe.c`:
 * Compilador GCC.
 * Ambiente Linux ou subsistema Unix (como WSL).
 
-### Passo a passo
+### Passo a passo no bash:
 1. Clone este repositório:
-   ```bash ```
     ```git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git) ```
-2. Compile o arquivo:
-   ``bash ```
+3. Compile o arquivo:
     ```gcc shell_pipe.c -o myshell ```
 4. Execute o interpretador:
-   ``bash ```
      ```./myshell ```
