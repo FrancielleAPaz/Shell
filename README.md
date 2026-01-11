@@ -31,5 +31,11 @@ O shell suporta as seguintes operações baseadas no código `shell_pipe.c`:
 
 ### Passo a passo
 1. Clone este repositório:
-   ```bash
-   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+   ```bash ```
+    ```git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git) ```
+2. Compile o arquivo:
+   ``bash ```
+    ```gcc shell_pipe.c -o myshell ```
+4. Execute o interpretador:
+   ``bash ```
+     ```./myshell ```
